@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epik Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 2rem;
+            color: white; /* Adjust text color for contrast against the video */
+        }
+        .content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .content p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .button-container {
+            margin-top: 0.7rem;
+            margin-left: 0.7rem;
+        }
+        .button {
+            margin-top: 1rem; 
+            margin-left: 0.7rem; 
+            padding: 0.75rem 1.5rem; 
+            background-color: #a603b4da; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            color: white; 
+            font-size: 1rem; 
+            text-decoration: none; 
+        } 
+        .button:hover { 
+            background-color: #400246da; 
+        } 
+        footer { 
+
+            padding: 1rem 2rem;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="C:\Users\Admin\Downloads\215697_small.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="content">
+        <h1>-Phenux5765-</h1>
+        <p>Discord: "phenux5765."</p>
+        <p></p>
+
+        <div class="button-container">
+            <a href="https://discord.gg/rcDNax8xXG" target="_blank" class="button">Discord Server</a>
+            <a href="https://github.com/Phenux5765" target="_blank" class="button">GitHub</a>
+            <a href="https://www.tiktok.com/@phenux57650?lang=en" target="_blank" class="button">TikTok</a>
+            <a href="https://www.reddit.com/user/Phenux5765" target="_blank" class="button">reddit</a>
+            <a href="https://www.roblox.com/users/5368313275/profile" target="_blank" class="button">roblox</a>
+        </div>
+    </div>
+
+    <footer>
+    
+    </footer>
+</body>
+</html>
